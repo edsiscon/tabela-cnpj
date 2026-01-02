@@ -82,11 +82,11 @@ table {
 }
 
 /* Cabeçalho */
-thead th {
+th {
   background-color: #2f80ed;
   color: #ffffff;
-  padding: 10px;
-  text-align: left;
+  padding: 5px;
+  text-align: center;
   border: 1px solid #ddd;
 }
 
@@ -104,12 +104,6 @@ tbody tr:nth-child(even) {
 /* Hover na linha */
 tbody tr:hover {
   background-color: #eef3ff;
-}
-
-th{
-  border: 1px solid #ddd;
-  background-color:  #2f80ed;
-  color: #ffffff;
 }
 
 /* Coluna ID */
