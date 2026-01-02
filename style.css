@@ -1,0 +1,140 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Arial, sans-serif;
+}
+body{
+  background: #f1f5f9;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+header {
+  background: #0f172a;
+  color: #ffffff;
+  padding: 10px;
+  text-align: left;
+}
+
+header h1 {
+  font-size: 20px;
+  margin-bottom: 6px;
+}
+
+header h2 {
+  font-size: 15px;
+  opacity: 0.85;
+}
+main{
+  padding: 20px;
+  display: grid;
+  width: 100%;
+  grid-template-columns: 20% 80%;
+  grid-template-rows: 180px 100%;
+
+}
+#entrada {
+  background-color: #f8f9fc;
+  border: 1px solid #dcdfe6;
+  border-radius: 6px;
+  padding: 10px 10px;
+  margin: 0px 10px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Texto */
+#entrada p {
+  margin: 0;
+  font-size: 14px;
+  color: #333;
+}
+
+/* Input file */
+#entrada input[type="file"] {
+  margin-top: 8px;
+  display: block;
+  font-size: 13px;
+  cursor: pointer;
+}
+
+/* Botão do input file (Chrome / Edge) */
+#entrada input[type="file"]::file-selector-button {
+  background-color: #2f80ed;
+  color: #fff;
+  border: none;
+  padding: 6px 14px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+/* Hover no botão */
+#entrada input[type="file"]::file-selector-button:hover {
+  background-color: #1c66c7;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+}
+
+/* Cabeçalho */
+thead th {
+  background-color: #2f80ed;
+  color: #ffffff;
+  padding: 10px;
+  text-align: left;
+  border: 1px solid #ddd;
+}
+
+/* Corpo da tabela */
+tbody td {
+  padding: 8px 10px;
+  border: 1px solid #ddd;
+}
+
+/* Linhas alternadas (efeito planilha) */
+tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+/* Hover na linha */
+tbody tr:hover {
+  background-color: #eef3ff;
+}
+
+th{
+  border: 1px solid #ddd;
+  background-color:  #2f80ed;
+  color: #ffffff;
+}
+
+/* Coluna ID */
+td:nth-child(1) {
+  text-align: center;
+  font-weight: bold;
+  width: 60px;
+}
+
+/* Coluna CNPJ */
+td:nth-child(3) {
+  font-family: monospace;
+}
+
+td:nth-child(4) {
+  font-weight: bold;
+  text-align: center;
+}
+
+td:nth-child(6) {
+  text-align: center;
+  
+}
+
+.hidden{
+  display: none;
+}
+

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Consultar de CNPJ</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<header>
+	<h1>Consultar de CNPJ</h1>
+	<h2>Sistema de consulta de CNPJ</h2>
+</header>
+<body>
+	<main>
+		<div id="entrada">
+			<p><strong>Selecione um arquivo .txt com CNPJs :</strong> <input type="file" id="arquivo"> </p>
+		</div>
+		<div>
+			<table id="tbody" class="hidden">
+				<tr>
+					<th>ID</th>
+					<th>Empresa</th>
+					<th>CNPJ</th>
+					<th>Situação Cadastral</th>
+					<th>Motivo</th>
+					<th>Data da Situação</th>
+				</tr>
+
+			</table>
+		</div>
+		
+	</main>
+</body>
+<script src="script.js"></script>
+</html>
